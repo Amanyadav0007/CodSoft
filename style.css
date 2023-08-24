@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;600;700;800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* SCROLL_BAR */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2C8CF0;
+    border-radius: 60px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /* background: red; */
+    background: grey;
+}
+
+/* ====================== Header Start Here ====================== */
+header {
+    /* background-color: #E8FD02; */
+    background-color: #2C8CF0;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+@media (max-width:375px) {
+    header h2 {
+        font-size: 6.5vw;
+        padding: 0 3vw;
+    }
+}
+
+/* ====================== Header End Here ====================== */
+
+/* ====================== Navbar Start Here ====================== */
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: crimson;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    border-bottom: 1px solid #dadada;
+}
+
+.nav-part2 {
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+
+.nav h2 {
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.nav h4 {
+    font-size: 1.2vw;
+}
+
+@media (max-width:425px) {
+
+    .nav {
+        padding: 0 3vw;
+        height: 60px;
+    }
+
+    .nav h2 {
+        font-size: 5.1vw;
+    }
+
+    .nav h4 {
+        font-size: 4vw;
+    }
+}
+
+/* ====================== Navbar End Here ====================== */
+
+
+/* ====================== Content 0 Start Here ====================== */
+
+.content {
+    height: calc(100% - 170px);
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.left {
+    height: 100%;
+    width: 55%;
+    padding: 5vw 4vw;
+}
+
+.left h1 {
+    font-size: 4vw;
+    line-height: 4.4vw;
+}
+
+.left h1 span {
+    color: #2C8CF0;
+}
+
+.left p {
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.right {
+    height: 100%;
+    width: 45%;
+}
+
+.right img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width:425px) {
+
+    .content {
+        height: calc(100% - 160px);
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+
+    }
+
+    .content1 {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        height: 45%;
+        padding: 4vw 6vw;
+    }
+
+    .right {
+        width: 100%;
+        height: 55%;
+    }
+
+    .left h1 {
+        font-size: 9vw;
+        line-height: 9vw;
+    }
+
+    .left p {
+        font-size: 4vw;
+        width: 100%;
+        margin: 5vw 0;
+    }
+}
+
+/* ====================== Content 0 End Here ====================== */
+
+
+
+/* ====================== Content1 Start Here ====================== */
+
+.content1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.content1 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+}
+
+.icon img {
+    height: 32px;
+    width: 32px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.icon img:hover{
+    filter: grayscale(1);
+}
+
+
+
+
+
+/* ====================== Content1 End Here ====================== */
+
+
+/* ====================== Content2 Start Here ====================== */
+.content2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.content2 .left-content2 {
+    height: 100%;
+    width: 55%;
+    padding: 5vw 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content2 .left-content2 h1 {
+    font-size: 4vw;
+    line-height: 4.4vw;
+}
+
+.content2 .left-content2 h1 span {
+    color: #578E3C;
+}
+
+.content2 .left-content2 p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+
+.content2 .right-content2 {
+    height: 100%;
+    width: 45%;
+}
+
+.content2 .right-content2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.content2 .left-content2 button{
+    font-size: 1.2vw;
+    padding: 1.3vw 2.3vw;
+    background-color: #2C8CF0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.content2 .left-content2 button:hover{
+    background-color: #0f5db1;
+}
+
+
+@media (max-width:425px) {
+
+    .content2 {
+        flex-direction: column-reverse;
+        /* flex-direction: column; */
+    }
+
+    .content2 .left-content2 {
+        width: 100%;
+        height: 45%;
+        padding: 4vw 6vw;
+    }
+
+    .content2 .right-content2 {
+        width: 100%;
+        height: 55%;
+    }
+
+    .content2 .left-content2 h1 {
+        font-size: 9vw;
+        line-height: 9vw;
+    }
+
+    .content2 .left-content2 p {
+        font-size: 4vw;
+        width: 100%;
+        margin: 5vw 0;
+    }
+    .content2 .left-content2 button{
+        padding: 3vw 6vw;
+        font-size: 3.5vw;
+        border-radius: 3px;
+        font-weight: 600;
+    }
+}
+
+/* ====================== Content2 End Here ====================== */
+
+
+.movies-page {
+    padding: 10px 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: rgb(185, 114, 114); */
+  }
+  
+  .movies-page .headings{
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .movies-page .headings .sub-title{
+    color: #2C8CF0;
+  }
+
+  .movies-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .movies-list li img {
+    border-radius: 10px;
+    background-size: cover;
+    transition: all 0.5s;
+    height: 324px;
+    width: 220px;
+    cursor: pointer;
+  }
+  
+  .movies-list li img:hover {
+    transition: all 0.5s;
+    transform: scale(1.2);
+    border: 3px solid #222222;
+  }
+
+  footer{
+    width: 100%;
+    height: 70px;
+    background-color: #2C8CF0;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+
+
+
