@@ -1,5 +1,5 @@
 # CodSoft 👨‍💻
-Mahindra Singh Dhoni Tribute Page Using HTML and CSS.
+Mahendra Singh Dhoni Tribute Page Using HTML and CSS.
 
 🚀 Excited to share my latest project: A stunning and responsive Tribut Page of great legend MSD(Mahendra Singh Dhoni) built from scratch using HTML and CSS! 💻🎨 This sleek design adapts seamlessly to all devices, ensuring a seamless user experience. Proud to showcase my web development skills in action! Check it out and let me know what you think
 
